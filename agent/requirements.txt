@@ -1,0 +1,6 @@
+langgraph
+langchain
+langchain-openai
+langchain-anthropic
+langchain-google-genai
+typing-extensions>=4.0.0

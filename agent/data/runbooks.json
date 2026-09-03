@@ -1,0 +1,22 @@
+{
+  "database-timeout": {
+    "title": "Database Connection Timeout Runbook",
+    "steps": [
+      "Verify database service is running",
+      "Check network latency and firewall rules",
+      "Examine database connection pool settings",
+      "Restart database listener if needed",
+      "Validate application connection strings"
+    ]
+  },
+  "api-latency": {
+    "title": "API Latency Spike Runbook",
+    "steps": [
+      "Monitor API server resource utilization",
+      "Check for recent code changes or deployments",
+      "Analyze endpoint-specific performance metrics",
+      "Review external service dependencies",
+      "Consider horizontal scaling if traffic increased"
+    ]
+  }
+}

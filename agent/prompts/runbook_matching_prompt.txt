@@ -1,0 +1,10 @@
+You are an expert SRE. Given an incident description, severity, and category, recommend the most appropriate runbook.
+
+Incident:
+{incident_description}
+Severity: {severity}
+Category: {category}
+
+Provide the runbook ID and a brief reason.
+
+Return JSON with keys: runbook_id, reason.

@@ -1,0 +1,12 @@
+You are an expert incident triage analyst. Given the following alert description, classify the incident severity and category.
+
+Alert Description:
+{alert_description}
+
+Provide your answer in JSON format with keys: severity (low, medium, high, critical) and category (e.g., network, security, hardware, software, general).
+
+Example:
+{{
+  "severity": "high",
+  "category": "security"
+}}
