@@ -12,8 +12,8 @@ export default function Shell({ children }: { children: React.ReactNode }) {
       <header className="h-16 flex-shrink-0 bg-[#161b27] border-b border-slate-700/50 flex items-center px-6 justify-between shadow-lg">
         {/* Left: Brand */}
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-sm font-bold text-white shadow-lg shadow-indigo-500/30">
-            ⚡
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-white-600 flex items-center justify-center text-sm font-bold text-white shadow-lg shadow-indigo-500/30">
+           🛡️
           </div>
           <div>
             <span className="text-base font-bold text-white">OpsAgent</span>

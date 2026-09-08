@@ -25,6 +25,7 @@ Thumbs.db
 *.log
 # IDE / editor folders
 .vscode/
+__pycache__/
 .idea/
 *.suo
 *.ntvs*

@@ -2,6 +2,8 @@
 
 OpsAgent is an AI-powered incident management system built with **LangGraph** and **Next.js**. It ingests incoming alerts, classifies severity, matches relevant runbooks, escalates critical issues, and generates stakeholder summaries.
 
+**Started** on Oct 2025
+
 ---
 
 ## Features
