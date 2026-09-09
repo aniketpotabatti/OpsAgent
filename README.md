@@ -1,4 +1,12 @@
-# OpsAgent – AI-Powered Incident Triage & Runbook Assistant
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
+  <img src="assets/logo.png" alt="OpsAgent Logo" width="75" height="75" />
+  <div style="text-align: left;">
+    <h1 style="margin-bottom: 6px;">OpsAgent</h1>
+    <div style="font-size: 1.1em; color: #6c7a89; font-weight: 500;">
+      AI-Powered Incident Triage &amp; Runbook Assistant
+    </div>
+  </div>
+</div>
 
 OpsAgent is an AI-powered incident management system built with **LangGraph** and **Next.js**. It ingests incoming alerts, classifies severity, matches relevant runbooks, escalates critical issues, and generates stakeholder summaries.
 
@@ -15,6 +23,8 @@ OpsAgent is an AI-powered incident management system built with **LangGraph** an
 - **Rule-Based Fallbacks**: Gracefully falls back to rule-based logic if LLM keys are missing or API calls fail.
 
 ---
+
+
 
 ## API Key Options & Configuration
 
@@ -38,6 +48,8 @@ ANTHROPIC_API_KEY=sk-ant-...
 GEMINI_API_KEY=AIzaSy...
 ```
 
+
+
 ### Option 2: Configure via Web UI Settings Modal
 
 1. Start the web app (`npm run dev`).
@@ -47,43 +59,59 @@ GEMINI_API_KEY=AIzaSy...
 
 ---
 
+
+
 ## Supported Providers & Models
 
-| Provider | Models Supported | Key Environment Variable |
-|---|---|---|
-| **OpenAI** | `gpt-4o-mini`, `gpt-3.5-turbo` | `OPENAI_API_KEY` |
-| **Anthropic** | `claude-3-5-sonnet`, `claude-3-haiku` | `ANTHROPIC_API_KEY` |
-| **Gemini** | `gemini-1.5-flash`, `gemini-pro` | `GEMINI_API_KEY` or `GOOGLE_API_KEY` |
+
+| Provider      | Models Supported                      | Key Environment Variable             |
+| ------------- | ------------------------------------- | ------------------------------------ |
+| **OpenAI**    | `gpt-4o-mini`, `gpt-3.5-turbo`        | `OPENAI_API_KEY`                     |
+| **Anthropic** | `claude-3-5-sonnet`, `claude-3-haiku` | `ANTHROPIC_API_KEY`                  |
+| **Gemini**    | `gemini-1.5-flash`, `gemini-pro`      | `GEMINI_API_KEY` or `GOOGLE_API_KEY` |
+
 
 ---
 
+
+
 ## Quick Start
+
+
 
 ### 1. Install Dependencies
 
 **Python Backend:**
+
 ```bash
 pip install -r agent/requirements.txt
 ```
 
 **Frontend:**
+
 ```bash
 npm install
 ```
 
+
+
 ### 2. Run the Application
 
 **Run Web UI & Python Agent:**
+
 ```bash
 npm run dev
 ```
 
 **Run LangGraph Agent Standalone:**
+
 ```bash
 python agent/graph.py
 ```
 
 ---
+
+
 
 ## Project Structure
 
@@ -112,6 +140,8 @@ OpsAgent/
 ```
 
 ---
+
+
 
 ## License
 

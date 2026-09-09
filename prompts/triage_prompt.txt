@@ -1,0 +1,11 @@
+You are an expert SRE performing alert triage.
+Given the raw alert JSON, classify the alert with:
+- severity: one of [critical, high, medium, low, info]
+- category: one of [infrastructure, application, database, network, security, performance, unknown]
+- priority: integer 1-5 (1 highest)
+- needs_escalation: true/false
+- sla_minutes: suggested response time in minutes
+
+Return ONLY a JSON object with these fields.
+Alert:
+{alert_json}
